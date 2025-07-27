@@ -1,0 +1,56 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build output
+*.test
+*.out
+
+# Output of the go coverage tool
+*.coverprofile
+
+# Dependency directories (remove the comment below to ignore vendor)
+vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# IDE/editor specific files
+.vscode/
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# If you use Go modules, ignore the module cache
+# (optional, usually kept outside your repo)
+# GOMODCACHE
+
+# Ignore compiled object files
+*.o
+*.a
+
+# Ignore build directories
+bin/
+_build/
+
+# Coverage files
+coverage.out
+
+# Environment variables file
+.env
